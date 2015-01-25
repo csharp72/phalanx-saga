@@ -1,0 +1,1 @@
+a:6:{s:19:"wpcp_update_options";s:1:"Y";s:8:"load_pos";s:6:"footer";s:12:"allways_load";s:2:"no";s:10:"style_file";s:12:"prettify.css";s:12:"style_custom";s:83:"pre.prettyprint { max-height: 300px; overflow: auto; padding: 0.8em; border:none; }";s:6:"Submit";s:12:"Save Changes";}

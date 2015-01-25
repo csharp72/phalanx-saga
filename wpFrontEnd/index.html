@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WP Test</title>
+	<link rel='stylesheet' type='text/css' href="./css/index.css" />
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+</head>
+<body ng-app="app" ng-controller="PageCtrl">
+
+	<header class="side-bar">
+		<div class="tag">
+			<div class="profile-pic"><img ng-src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/000/141/3b8/06d2a7c.jpg" /><div class="shadow"></div></div>
+			<h1>The Phalanx Saga</h1>
+			<p>The works and musings of Colin Sharp</p>
+		</div>
+	</header>
+	
+	<div class="page-content">
+		<div class="projects">
+			<div class="project" ng-repeat="project in projects">
+				<img class="featured-image" ng-src="{{project.featured_image.attachment_meta.sizes['post-thumbnail'].url}}" />
+				<div class="title">{{project.title}}</div>
+				<div class="content">{{project.content}}</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

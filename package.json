@@ -1,0 +1,25 @@
+{
+  "name": "PhalanxSaga",
+  "version": "1.0.0",
+  "description": "The works and musings of Colin Sharp",
+  "main": "gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-requirejs": "^0.4.4"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csharp72/AngularCiv.git"
+  },
+  "author": "Colin Sharp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csharp72/AngularCiv/issues"
+  },
+  "homepage": "https://github.com/csharp72/AngularCiv"
+}

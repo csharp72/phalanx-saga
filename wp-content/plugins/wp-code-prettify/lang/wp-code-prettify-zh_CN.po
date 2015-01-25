@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Code Prettify V0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-13 13:22+0800\n"
+"PO-Revision-Date: 2011-05-13 13:22+0800\n"
+"Last-Translator: Soli <soli@qq.com>\n"
+"Language-Team: Soli <soli@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-KeywordsList: _e;__;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-code-prettify-page.php:24
+msgid "Configuration updated"
+msgstr "配置已更新"
+
+#: ../wp-code-prettify-page.php:26
+msgid "Error while saving options"
+msgstr "保存选项时出错"
+
+#: ../wp-code-prettify-page.php:37
+msgid "This plugin enable syntax highlighting of code snippets in your post using Google Code Prettify."
+msgstr "本插件使用Google代码美化器将文章中的代码片段以语法高亮显示。"
+
+#: ../wp-code-prettify-page.php:38
+msgid "Usage"
+msgstr "使用方法"
+
+#: ../wp-code-prettify-page.php:39
+msgid "Put code snippets in<tt>&lt;pre class=\"prettyprint\"&gt;...&lt;/pre&gt;</tt> or <tt>&lt;code class=\"prettyprint\"&gt;...&lt;/code&gt;</tt> and it will automatically be pretty printed."
+msgstr "在 <tt>&lt;pre class=\"prettyprint\"&gt;...&lt;/pre&gt;</tt> 或 <tt>&lt;code class=\"prettyprint\"&gt;...&lt;/code&gt;</tt> 中间放上代码片段，它就会自动被美化了。"
+
+#: ../wp-code-prettify-page.php:40
+msgid "See <a href=\"http://google-code-prettify.googlecode.com/svn/trunk/README.html\" target=\"_blank\">Google Code Prettify Readme File</a> for more info.(<a href=\"http://google-code-prettify.googlecode.com/svn/trunk/README-zh-Hans.html\" target=\"_blank\">Chinese Version</a>)"
+msgstr "查看<a href=\"http://google-code-prettify.googlecode.com/svn/trunk/README.html\" target=\"_blank\">Google Code Prettify 的 Readme 文件</a> 获取更多信息。(<a href=\"http://google-code-prettify.googlecode.com/svn/trunk/README-zh-Hans.html\" target=\"_blank\">中文版</a>)"
+
+#: ../wp-code-prettify-page.php:41
+msgid "<b>Note</b>: The browser must support javascript."
+msgstr "<b>注意</b>：浏览器须支持Javascript。"
+
+#: ../wp-code-prettify-page.php:51
+#: ../wp-code-prettify.php:172
+msgid "Settings"
+msgstr "配置"
+
+#: ../wp-code-prettify-page.php:70
+msgid "Where the js/css files should be loaded?"
+msgstr "在哪加载js/css文件？"
+
+#: ../wp-code-prettify-page.php:72
+msgid "Head"
+msgstr "头部"
+
+#: ../wp-code-prettify-page.php:73
+msgid "Footer"
+msgstr "尾部"
+
+#: ../wp-code-prettify-page.php:75
+msgid "Head: Load the js/css files in the &lt;head&gt; section. If this is checked, the next option will be disabled.<br />Footer: Load the js/css files in the &lt;div id=\"footer\"&gt; section."
+msgstr "头部：在&lt;head&gt;头部加载js/css文件。如果选中此项，则下面的选项无效。<br />尾部：在&lt;div id=\"footer\"&gt;中加载js/css文件。"
+
+#: ../wp-code-prettify-page.php:79
+msgid "Allways load the js/css files?"
+msgstr "是否总是加载js/css文件？"
+
+#: ../wp-code-prettify-page.php:81
+msgid "Yes"
+msgstr "是"
+
+#: ../wp-code-prettify-page.php:82
+msgid "No"
+msgstr "否"
+
+#: ../wp-code-prettify-page.php:84
+msgid "Yes: Allway load the js/css files even if there is no code in the content.<br />No: Load the js/css files only if there is some code."
+msgstr "是：总是加载js/css文件，即使内容中没有代码片断。<br />否：只在有代码片断的情况下才加载js/css文件。"
+
+#: ../wp-code-prettify-page.php:88
+msgid "Which style do you like?"
+msgstr "您喜欢哪个样式风格呢？"
+
+#: ../wp-code-prettify-page.php:109
+msgid "You can add custom css here."
+msgstr "您可以在此添加自定义CSS样式。"
+
+#: ../wp-code-prettify-page.php:115
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: ../wp-code-prettify-page.php:134
+msgid "About this plugin"
+msgstr "关于本插件"
+
+#: ../wp-code-prettify-page.php:136
+msgid "Plugin URI"
+msgstr "插件链接地址"
+
+#: ../wp-code-prettify-page.php:137
+msgid "Author URI"
+msgstr "作者页面"
+
+#: ../wp-code-prettify-page.php:154
+msgid "WP Code Prettify"
+msgstr "代码美化器"
+
+#: ../wp-code-prettify.php:173
+msgid "FAQ"
+msgstr "常见问题"
+
